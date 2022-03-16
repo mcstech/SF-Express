@@ -41,7 +41,7 @@
           },
           {
             "key": "msgType",
-            "value": "",
+            "value": "IUOP order placement",
             "type": "text"
           }
         ],
@@ -207,67 +207,67 @@
   ],
   "variable": [
     {
-      "id": "37fa7d41-0607-400a-8da8-6aaef371544b",
+      "id": "a80bf887-4078-4b77-8893-7ace60957084",
       "key": "URL",
       "value": "http://api-ifsp.sit.sf.global",
       "type": "string"
     },
     {
-      "id": "03edc0fe-9a8d-4f6f-acb3-300164f24a18",
+      "id": "17729604-c2e3-4e06-a767-f8bea285ae62",
       "key": "appKey",
       "value": "cdd169d87a4698d314754a79f180308a",
       "type": "string"
     },
     {
-      "id": "f67f239c-7ed5-41e9-88e7-334cacd4e829",
+      "id": "4ec539af-f28f-40e0-af7d-bf6caddfbc50",
       "key": "requestId",
       "value": "",
       "type": "string"
     },
     {
-      "id": "6da58119-5a65-4339-a43c-4ddd34c335c4",
+      "id": "c7910699-262d-49cb-84e6-6f97a413a8f2",
       "key": "signature",
       "value": "",
       "type": "string"
     },
     {
-      "id": "b1cb29b5-9531-4e45-8c59-f35681a7fd08",
+      "id": "594cf7f8-81ff-47d8-b46d-c68efee119c4",
       "key": "v",
       "value": "2",
       "type": "string"
     },
     {
-      "id": "48107e82-a8e3-4316-b9d7-f6e9ff49ebe0",
+      "id": "31e55cff-663a-4c14-a44d-150f03470cf9",
       "key": "appSecret",
       "value": "69fb3e868a45d0bdd5b0de0ea1db6ece",
       "type": "string"
     },
     {
-      "id": "b7393e4b-e6f1-4441-b324-794fac0b6650",
+      "id": "a4791fdb-4e1a-4e95-a3c1-0245789c3654",
       "key": "customerCode",
       "value": "ICRME000SRN93",
       "type": "string"
     },
     {
-      "id": "90290b87-4b1e-47d6-866a-3a62c585b2fd",
+      "id": "c2f50dcd-f041-4e5c-8f52-51b9807c0883",
       "key": "aesKey",
       "value": "oI1YdU1cb1YC70HVjZRa3wXBLUsrIUYr5lDh0gFrMbe",
       "type": "string"
     },
     {
-      "id": "d5512135-a3cf-4cc5-8cff-2af5371340f1",
+      "id": "293c042b-39f9-42ea-940a-e1ae673e764d",
       "key": "token",
       "value": "",
       "type": "string"
     },
     {
-      "id": "feb26f4a-3e32-4834-bf2f-438a3f520bf1",
+      "id": "76f1f372-e234-47d6-b2c3-1e774fb31f8e",
       "key": "expireIn",
       "value": "",
       "type": "string"
     },
     {
-      "id": "e6a8365b-3aec-4c2f-886b-93470ddd1d2f",
+      "id": "f9bc96cf-e710-4ff8-a1e5-c3e0ea2b2e1a",
       "key": "nonce",
       "value": "{{$guid}}",
       "type": "string"
