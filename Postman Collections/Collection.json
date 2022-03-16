@@ -250,61 +250,61 @@
   ],
   "variable": [
     {
-      "id": "bff46466-725b-41ee-bb2c-e047bcb0b880",
+      "id": "726f380d-a253-4996-8e55-947e12fb090f",
       "key": "URL",
       "value": "http://api-ifsp.sit.sf.global",
       "type": "string"
     },
     {
-      "id": "db9eb3af-e452-4594-b531-3df922ea3268",
+      "id": "c4d6d15f-bb3c-40c5-9e8f-fb01a869ae59",
       "key": "appKey",
       "value": "cdd169d87a4698d314754a79f180308a",
       "type": "string"
     },
     {
-      "id": "e86046d5-e4d3-4bde-830f-4263bb94af2b",
+      "id": "6be743c6-cdb4-43a2-b32b-ef79070f3bc2",
       "key": "signature",
       "value": "",
       "type": "string"
     },
     {
-      "id": "96c33228-fb6e-4e47-944d-a2d91c013004",
+      "id": "31526966-9b52-45b4-9fe5-c3b287892e00",
       "key": "appSecret",
       "value": "69fb3e868a45d0bdd5b0de0ea1db6ece",
       "type": "string"
     },
     {
-      "id": "71dd01fd-aaaa-4434-98b7-6861d80a2ea6",
+      "id": "e0dd3cba-d644-4ae9-a315-884ec0ef2d0b",
       "key": "customerCode",
       "value": "ICRME000SRN93",
       "type": "string"
     },
     {
-      "id": "3f06a5f2-dc7e-4bf5-a89b-6448d404a1b3",
+      "id": "2d3f5355-3b29-4340-8a8f-f684642dd63c",
       "key": "aesKey",
       "value": "oI1YdU1cb1YC70HVjZRa3wXBLUsrIUYr5lDh0gFrMbe",
       "type": "string"
     },
     {
-      "id": "2b5f96cc-8121-4086-82f8-c6f1b976beb9",
+      "id": "0deed839-4a2a-4950-9c41-2af10e340b76",
       "key": "token",
       "value": "",
       "type": "string"
     },
     {
-      "id": "d4e97230-d8dd-46ac-8c69-da653a615e94",
+      "id": "3459d38b-650a-4b0b-918b-d5a14c394078",
       "key": "expireIn",
       "value": "",
       "type": "string"
     },
     {
-      "id": "c4dc0992-d0f3-4b7e-91f1-3c2cfbb6d035",
+      "id": "d1935e0b-f43f-41dc-965d-bea89ebd200a",
       "key": "nonce",
       "value": "",
       "type": "string"
     },
     {
-      "id": "d74c461a-7ad6-43ee-a91d-f768c35271ca",
+      "id": "4d537b2c-d1a0-4fe2-a2f3-fb013cebc7ee",
       "key": "timestamp",
       "value": ""
     }
