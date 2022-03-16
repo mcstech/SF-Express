@@ -62,7 +62,7 @@
               "        certType: '',",
               "        regionSecond: '106A',",
               "        company: '顺丰速运',",
-              "        contact: '姓名测试',",
+              "        contact: '李想',",
               "        country: 'SG',",
               "        regionThird: '',",
               "        email: 'iuop@test.com',",
@@ -321,66 +321,66 @@
   ],
   "variable": [
     {
-      "id": "d8bdfd4c-9743-4cc8-95f9-bd5cea89811d",
+      "id": "e9d0bcd1-caff-43b3-9484-10b379e83d6c",
       "key": "URL",
       "value": "http://api-ifsp.sit.sf.global",
       "type": "string"
     },
     {
-      "id": "b3bf73b1-503a-4a47-ad24-59746420334d",
+      "id": "f19e0dbd-1eb4-44cb-866a-a4a1a5919ada",
       "key": "appKey",
       "value": "cdd169d87a4698d314754a79f180308a",
       "type": "string"
     },
     {
-      "id": "4e3dfe10-a5f3-413b-b934-cdc3876779c9",
+      "id": "0bf4bc5d-eda6-4658-8d53-ffe3698b4e3d",
       "key": "signature",
       "value": "",
       "type": "string"
     },
     {
-      "id": "adcd12cb-1b71-49c7-a809-9284528d54ea",
+      "id": "8b08bf93-8fe5-46a3-b67e-cb12d4c80321",
       "key": "appSecret",
       "value": "69fb3e868a45d0bdd5b0de0ea1db6ece",
       "type": "string"
     },
     {
-      "id": "423f0955-193f-4753-9808-a03aacb788db",
+      "id": "095719a3-5841-4371-a41c-3591eebe172e",
       "key": "customerCode",
       "value": "ICRME000SRN93",
       "type": "string"
     },
     {
-      "id": "d3f59b69-100f-4e15-9d49-a548b1ba19cc",
+      "id": "cef8aad7-b00d-467c-9ee4-76453aef0e5f",
       "key": "aesKey",
       "value": "oI1YdU1cb1YC70HVjZRa3wXBLUsrIUYr5lDh0gFrMbe",
       "type": "string"
     },
     {
-      "id": "ea263a59-17d9-48e6-b87e-dacaf2e3d47e",
+      "id": "273d1b77-0520-4700-961d-c64e0d408967",
       "key": "token",
       "value": "",
       "type": "string"
     },
     {
-      "id": "5fe6f473-3249-4dec-a63b-1cdf1c7b4011",
+      "id": "621243c8-e19a-446e-96d5-023a3521abaf",
       "key": "expireIn",
       "value": "",
       "type": "string"
     },
     {
-      "id": "bbc46ffc-e8bc-432c-8c7d-c3cd89029b27",
+      "id": "bc0d17cd-74e2-47cf-80dc-ca61be0beddc",
       "key": "nonce",
       "value": "",
       "type": "string"
     },
     {
-      "id": "cdf7ec39-bcda-4b9b-a4ac-106cf095ecb7",
+      "id": "0c71a5ba-1453-4b65-ace2-ee354e0378c1",
       "key": "timestamp",
       "value": ""
     },
     {
-      "id": "2eaba8b5-db41-431c-8508-68842e9a5f31",
+      "id": "1d315ac4-0ef5-4e2b-991f-e57856215edd",
       "key": "request_body",
       "value": "",
       "type": "string"
