@@ -70,7 +70,7 @@
               "        phoneAreaCode: '65',",
               "        phoneNo: '54875485',",
               "        postCode: '536727',",
-              "        regionFirst: 'Admiralty Road East',",
+              "        regionFirst: 'Ah Soo Walk',",
               "        telAreaCode: '86',",
               "        telNo: '9516168888',",
               "        vat: ''",
@@ -321,66 +321,66 @@
   ],
   "variable": [
     {
-      "id": "9ff90abc-d883-4d59-9769-398e1e5f785e",
+      "id": "9a84dbf7-10d4-4adb-bfda-28c0b244961a",
       "key": "URL",
       "value": "http://api-ifsp.sit.sf.global",
       "type": "string"
     },
     {
-      "id": "fb957f09-255f-477b-9c65-324f6877fe0e",
+      "id": "90f46520-b5f3-4471-b0be-4e50a3971f9f",
       "key": "appKey",
       "value": "cdd169d87a4698d314754a79f180308a",
       "type": "string"
     },
     {
-      "id": "23e5d5eb-87f3-4b27-ba7d-fb7b98a27f25",
+      "id": "c283a3c6-0bee-4b05-a208-e14e748607bc",
       "key": "signature",
       "value": "",
       "type": "string"
     },
     {
-      "id": "c64a48d1-da30-47d3-89d9-576f9c1d74d8",
+      "id": "668bccee-4f8f-4f82-a998-b0b3b30ef41f",
       "key": "appSecret",
       "value": "69fb3e868a45d0bdd5b0de0ea1db6ece",
       "type": "string"
     },
     {
-      "id": "31699170-6f8b-4d65-b854-202da19a382b",
+      "id": "6774e1c6-2a25-4eb9-bc35-87e5a9456f95",
       "key": "customerCode",
       "value": "ICRME000SRN93",
       "type": "string"
     },
     {
-      "id": "b3511304-adee-409f-83fd-eccfb729889f",
+      "id": "9d8b887e-7c73-42cb-b660-a6d5d4574a5b",
       "key": "aesKey",
       "value": "oI1YdU1cb1YC70HVjZRa3wXBLUsrIUYr5lDh0gFrMbe",
       "type": "string"
     },
     {
-      "id": "db3700e2-1f94-4088-89b9-473a46417b49",
+      "id": "a180c8a0-40fc-425b-a7c7-5329ef269578",
       "key": "token",
       "value": "",
       "type": "string"
     },
     {
-      "id": "af616ead-32c2-496a-b0cb-3f8b0b42daa4",
+      "id": "698c8368-eea9-4ca9-ab98-13b40b7afcc6",
       "key": "expireIn",
       "value": "",
       "type": "string"
     },
     {
-      "id": "4d213791-da21-4c90-94c3-e18079169b34",
+      "id": "1c1827ee-4aee-40af-8737-ccca479c97b6",
       "key": "nonce",
       "value": "",
       "type": "string"
     },
     {
-      "id": "06d7e33c-6616-4d22-b09c-8e523964ec34",
+      "id": "8fd88fa5-0efc-43a1-bb57-0ee3d2f6f6ce",
       "key": "timestamp",
       "value": ""
     },
     {
-      "id": "d5c4a65a-9d5c-479b-86f0-1e9d3e7d2b39",
+      "id": "cf52582e-aae8-475e-b52e-d317a8232474",
       "key": "request_body",
       "value": "",
       "type": "string"
