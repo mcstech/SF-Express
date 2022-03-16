@@ -69,7 +69,7 @@
               "        eori: '',",
               "        phoneAreaCode: '65',",
               "        phoneNo: '54875485',",
-              "        postCode: '759973',",
+              "        postCode: '536727',",
               "        regionFirst: 'Admiralty Road East',",
               "        telAreaCode: '86',",
               "        telNo: '9516168888',",
@@ -321,66 +321,66 @@
   ],
   "variable": [
     {
-      "id": "e9d0bcd1-caff-43b3-9484-10b379e83d6c",
+      "id": "9ff90abc-d883-4d59-9769-398e1e5f785e",
       "key": "URL",
       "value": "http://api-ifsp.sit.sf.global",
       "type": "string"
     },
     {
-      "id": "f19e0dbd-1eb4-44cb-866a-a4a1a5919ada",
+      "id": "fb957f09-255f-477b-9c65-324f6877fe0e",
       "key": "appKey",
       "value": "cdd169d87a4698d314754a79f180308a",
       "type": "string"
     },
     {
-      "id": "0bf4bc5d-eda6-4658-8d53-ffe3698b4e3d",
+      "id": "23e5d5eb-87f3-4b27-ba7d-fb7b98a27f25",
       "key": "signature",
       "value": "",
       "type": "string"
     },
     {
-      "id": "8b08bf93-8fe5-46a3-b67e-cb12d4c80321",
+      "id": "c64a48d1-da30-47d3-89d9-576f9c1d74d8",
       "key": "appSecret",
       "value": "69fb3e868a45d0bdd5b0de0ea1db6ece",
       "type": "string"
     },
     {
-      "id": "095719a3-5841-4371-a41c-3591eebe172e",
+      "id": "31699170-6f8b-4d65-b854-202da19a382b",
       "key": "customerCode",
       "value": "ICRME000SRN93",
       "type": "string"
     },
     {
-      "id": "cef8aad7-b00d-467c-9ee4-76453aef0e5f",
+      "id": "b3511304-adee-409f-83fd-eccfb729889f",
       "key": "aesKey",
       "value": "oI1YdU1cb1YC70HVjZRa3wXBLUsrIUYr5lDh0gFrMbe",
       "type": "string"
     },
     {
-      "id": "273d1b77-0520-4700-961d-c64e0d408967",
+      "id": "db3700e2-1f94-4088-89b9-473a46417b49",
       "key": "token",
       "value": "",
       "type": "string"
     },
     {
-      "id": "621243c8-e19a-446e-96d5-023a3521abaf",
+      "id": "af616ead-32c2-496a-b0cb-3f8b0b42daa4",
       "key": "expireIn",
       "value": "",
       "type": "string"
     },
     {
-      "id": "bc0d17cd-74e2-47cf-80dc-ca61be0beddc",
+      "id": "4d213791-da21-4c90-94c3-e18079169b34",
       "key": "nonce",
       "value": "",
       "type": "string"
     },
     {
-      "id": "0c71a5ba-1453-4b65-ace2-ee354e0378c1",
+      "id": "06d7e33c-6616-4d22-b09c-8e523964ec34",
       "key": "timestamp",
       "value": ""
     },
     {
-      "id": "1d315ac4-0ef5-4e2b-991f-e57856215edd",
+      "id": "d5c4a65a-9d5c-479b-86f0-1e9d3e7d2b39",
       "key": "request_body",
       "value": "",
       "type": "string"
