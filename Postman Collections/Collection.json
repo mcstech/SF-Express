@@ -56,11 +56,11 @@
               "        vat: ''",
               "    },",
               "    receiverInfo: {",
-              "        address: '306 S BRYN MAWR AVE',",
+              "        address: '新加坡 详细地址',",
               "        cargoType: 1,",
               "        certCardNo: '',",
               "        certType: '',",
-              "        regionSecond: '11A',",
+              "        regionSecond: '106A',",
               "        company: '',",
               "        contact: '姓名测试',",
               "        country: 'SG',",
@@ -321,66 +321,66 @@
   ],
   "variable": [
     {
-      "id": "95b474fe-d97a-41ec-962b-ab9daa81d1fc",
+      "id": "51ecdeba-86db-45e4-85d3-f8c8c0253241",
       "key": "URL",
       "value": "http://api-ifsp.sit.sf.global",
       "type": "string"
     },
     {
-      "id": "bcf833a6-f9cb-451e-93d1-9edb375141a8",
+      "id": "0720632b-339b-4fd0-9240-e2ecbf77e671",
       "key": "appKey",
       "value": "cdd169d87a4698d314754a79f180308a",
       "type": "string"
     },
     {
-      "id": "dd4704fb-ea1a-4c9a-959b-7cbd8f810c31",
+      "id": "d5ff80fe-f6a0-4845-89fd-f7d9e1b3e150",
       "key": "signature",
       "value": "",
       "type": "string"
     },
     {
-      "id": "1f1fcfae-e3dd-4a6c-a8b4-81c3bddb7dc5",
+      "id": "513b5a85-e977-433b-a619-30d927a2020c",
       "key": "appSecret",
       "value": "69fb3e868a45d0bdd5b0de0ea1db6ece",
       "type": "string"
     },
     {
-      "id": "fc00208b-f0e4-4485-97cc-afdc7bae2876",
+      "id": "e30dc30c-c652-474e-805a-507d0fab9bd9",
       "key": "customerCode",
       "value": "ICRME000SRN93",
       "type": "string"
     },
     {
-      "id": "42277b40-8942-46ca-a808-df2b411661a3",
+      "id": "6a4835e5-11dc-40e2-85e4-4a4c7391d874",
       "key": "aesKey",
       "value": "oI1YdU1cb1YC70HVjZRa3wXBLUsrIUYr5lDh0gFrMbe",
       "type": "string"
     },
     {
-      "id": "be7b4827-5cad-4457-b075-23a3a3ecc9d1",
+      "id": "b0758c5d-75f1-463a-b98d-3c8f50cf5ea2",
       "key": "token",
       "value": "",
       "type": "string"
     },
     {
-      "id": "79fe032c-d442-4c0d-b96a-d495964416fe",
+      "id": "6c2a6a1f-8176-4cf7-9100-3c2fcd73e92d",
       "key": "expireIn",
       "value": "",
       "type": "string"
     },
     {
-      "id": "b027fb77-3978-4110-ad3d-5013186e7790",
+      "id": "9b88d225-a30c-417c-9232-3608278696b6",
       "key": "nonce",
       "value": "",
       "type": "string"
     },
     {
-      "id": "8ac1d51d-b310-435b-bef9-47e63a395665",
+      "id": "2f8489fa-ce49-4aee-a315-d760d102a3b1",
       "key": "timestamp",
       "value": ""
     },
     {
-      "id": "5e928952-6769-4bb5-ac2e-a9a1d2f37cb8",
+      "id": "573c0a2c-cb67-4359-a4d5-80b81cbdf78d",
       "key": "request_body",
       "value": "",
       "type": "string"
