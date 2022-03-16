@@ -75,6 +75,14 @@
               "        telNo: '9516168888',",
               "        vat: ''",
               "    },",
+              "    customsInfo: {",
+              "        aesNo: '',",
+              "        businessRemark: '',",
+              "        customsBatch: '',",
+              "        harmonizedCode: '',",
+              "        senderReasonContent: '',",
+              "        ",
+              "    },",
               "};",
               "",
               "",
@@ -321,66 +329,66 @@
   ],
   "variable": [
     {
-      "id": "714aa981-ca46-4287-a7b7-47b996411cda",
+      "id": "d7c62144-8682-4d1a-a53a-027a2918b64b",
       "key": "URL",
       "value": "http://api-ifsp.sit.sf.global",
       "type": "string"
     },
     {
-      "id": "3b4f1e5e-b9b6-4a2d-a4cb-581af2fab9c0",
+      "id": "10860aa4-835a-46b3-9de9-7077cbf87aad",
       "key": "appKey",
       "value": "cdd169d87a4698d314754a79f180308a",
       "type": "string"
     },
     {
-      "id": "380ef44a-68ac-4c41-8bee-1a27690452ff",
+      "id": "d9d03ccd-8d5f-4046-8243-dca319905bdd",
       "key": "signature",
       "value": "",
       "type": "string"
     },
     {
-      "id": "e738d1c8-e33c-4e8f-b43b-472841f0ab38",
+      "id": "612ab3fe-b983-4f01-b55a-e043f6cff96e",
       "key": "appSecret",
       "value": "69fb3e868a45d0bdd5b0de0ea1db6ece",
       "type": "string"
     },
     {
-      "id": "35a6bc0e-a35f-498c-9e71-61e1cbba2c9a",
+      "id": "95ad7593-b485-4821-b317-904880c5c493",
       "key": "customerCode",
       "value": "ICRME000SRN93",
       "type": "string"
     },
     {
-      "id": "e53dcf63-eab6-4f5a-84dc-d00f4a8efdf4",
+      "id": "0efb3545-d8bb-4bc9-97f0-bbbf871aba84",
       "key": "aesKey",
       "value": "oI1YdU1cb1YC70HVjZRa3wXBLUsrIUYr5lDh0gFrMbe",
       "type": "string"
     },
     {
-      "id": "6b88abde-c2a7-4a36-8bf8-646c611a2383",
+      "id": "dc9431f4-6588-4d57-a2a3-326407c33817",
       "key": "token",
       "value": "",
       "type": "string"
     },
     {
-      "id": "27420eda-c0e6-4e8f-9bc2-c5f9188bcb30",
+      "id": "9a1fc799-d874-4755-b7b6-1db4b4c86bb0",
       "key": "expireIn",
       "value": "",
       "type": "string"
     },
     {
-      "id": "615af3ae-f6ff-4008-89df-6a5c3decf9a3",
+      "id": "11a5d9de-defe-472a-87ec-b8d9357538a0",
       "key": "nonce",
       "value": "",
       "type": "string"
     },
     {
-      "id": "ee8db7b1-1bc6-43ff-b571-23d9cf91b06a",
+      "id": "f9e068f1-b64d-44f3-a2db-e03155481d1c",
       "key": "timestamp",
       "value": ""
     },
     {
-      "id": "6c6833b8-6765-4007-824e-dcc3d689c56a",
+      "id": "f53912c4-5b95-49bf-b27b-4afd8a3d0974",
       "key": "request_body",
       "value": "",
       "type": "string"
