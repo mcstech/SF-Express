@@ -237,55 +237,55 @@
   ],
   "variable": [
     {
-      "id": "24e3d825-3dba-4416-8a8c-03465fd09279",
+      "id": "4a4d637e-0224-4f0c-9089-38d01b4ad333",
       "key": "URL",
       "value": "http://api-ifsp.sit.sf.global",
       "type": "string"
     },
     {
-      "id": "864c0b9c-a4cc-44fb-a39a-e1fa96f76a6b",
+      "id": "e4c8823c-2d27-4171-b191-93baf1d63bbc",
       "key": "appKey",
       "value": "cdd169d87a4698d314754a79f180308a",
       "type": "string"
     },
     {
-      "id": "62cc1fa1-7cf4-4fd7-a2c0-2f893c70ebc8",
+      "id": "075e41e0-4b37-47d5-83ab-416918aeebf8",
       "key": "signature",
       "value": "",
       "type": "string"
     },
     {
-      "id": "5ac3d660-45a7-4c92-9bb7-91cef088acce",
+      "id": "8f438606-105e-463c-8bcc-7ce64a098e67",
       "key": "appSecret",
       "value": "69fb3e868a45d0bdd5b0de0ea1db6ece",
       "type": "string"
     },
     {
-      "id": "474be814-4b70-4c9c-a520-79c7f728f63f",
+      "id": "5ef68be3-b71e-43dc-8114-92262c95ff1e",
       "key": "customerCode",
       "value": "ICRME000SRN93",
       "type": "string"
     },
     {
-      "id": "680edc0a-da0d-492f-8c1f-3a456bffa53e",
+      "id": "de959c45-9cb6-4151-90be-83501ae5db6d",
       "key": "aesKey",
       "value": "oI1YdU1cb1YC70HVjZRa3wXBLUsrIUYr5lDh0gFrMbe",
       "type": "string"
     },
     {
-      "id": "bf065973-271c-429f-9e01-b4d5d46f755f",
+      "id": "93ff952d-80e7-4270-9ed2-44b918bc023f",
       "key": "token",
       "value": "",
       "type": "string"
     },
     {
-      "id": "41e06501-a8d5-452b-ab22-8f5693262f99",
+      "id": "f3e8f7f6-6ea0-4f50-9fdc-1ca712c665f3",
       "key": "expireIn",
       "value": "",
       "type": "string"
     },
     {
-      "id": "0f0f949b-606d-4a25-b639-e30b2c887c58",
+      "id": "8209f5fd-c108-4482-995a-1d8673e8d3a7",
       "key": "nonce",
       "value": "",
       "type": "string"
