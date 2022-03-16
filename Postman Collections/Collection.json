@@ -7,7 +7,7 @@
   "item": [
     {
       "name": "Order",
-      "_postman_id": "ef01cbc0-d999-4b80-ad81-bea4e181be83",
+      "id": "ef01cbc0-d999-4b80-ad81-bea4e181be83",
       "protocolProfileBehavior": {
         "disableBodyPruning": true
       },
@@ -54,7 +54,7 @@
             }
           }
         },
-        "url": "{{URL}}/order/service"
+        "url": "{{URL}}/openapi/api/dispatch"
       },
       "response": []
     },
@@ -77,7 +77,7 @@
           }
         }
       ],
-      "_postman_id": "3dcb240f-3d17-482d-9010-96a4f29e77e2",
+      "id": "3dcb240f-3d17-482d-9010-96a4f29e77e2",
       "protocolProfileBehavior": {
         "disableBodyPruning": true
       },
@@ -207,61 +207,61 @@
   ],
   "variable": [
     {
-      "id": "5b9212be-8da8-46e4-bb35-8341b9b1d3ed",
+      "id": "967c1cbe-cddf-4ade-9a3c-faf574f13d2e",
       "key": "URL",
       "value": "http://api-ifsp.sit.sf.global",
       "type": "string"
     },
     {
-      "id": "2577fdd8-8c82-49f2-802e-0c2f53be282f",
+      "id": "a5f97805-650d-447f-add9-499dd3b25cd8",
       "key": "appKey",
       "value": "cdd169d87a4698d314754a79f180308a",
       "type": "string"
     },
     {
-      "id": "62a5b9fc-03f2-44aa-b8ac-2b403d86533a",
+      "id": "df502d0a-f7d3-40b9-b208-a8994bbdf625",
       "key": "requestId",
       "value": "",
       "type": "string"
     },
     {
-      "id": "ca4c46f6-cd06-446c-b01a-ef966a05c20f",
+      "id": "8169c84f-ebc4-4ace-af08-c1887356e43e",
       "key": "signature",
       "value": "",
       "type": "string"
     },
     {
-      "id": "2951480b-8a0a-4cf8-9299-b8bcb7843133",
+      "id": "e4046882-ae1a-4f90-8180-f03f90308017",
       "key": "v",
       "value": "2",
       "type": "string"
     },
     {
-      "id": "6dff393c-450c-49f0-b2f4-efca09b91f88",
+      "id": "e9c782bc-4fff-4a98-a466-c94ca25ed028",
       "key": "appSecret",
       "value": "69fb3e868a45d0bdd5b0de0ea1db6ece",
       "type": "string"
     },
     {
-      "id": "1e3a307b-0d67-481e-9959-b91658bc1554",
+      "id": "0228ab04-46f9-411a-9634-991b86c83534",
       "key": "customerCode",
       "value": "ICRME000SRN93",
       "type": "string"
     },
     {
-      "id": "728a5464-cc4f-47a8-8a1d-40068ee2cdc1",
+      "id": "009e6284-b810-4ee6-b389-3744bdf3311d",
       "key": "aesKey",
       "value": "oI1YdU1cb1YC70HVjZRa3wXBLUsrIUYr5lDh0gFrMbe",
       "type": "string"
     },
     {
-      "id": "e0dbc881-eb9f-491d-bbd2-40cbf69aa9a8",
+      "id": "d445445a-d1bd-406b-ac93-5a0c2c85a481",
       "key": "token",
       "value": "",
       "type": "string"
     },
     {
-      "id": "11d84433-c62f-4b00-9e99-5ec05bc602ff",
+      "id": "a0101a34-831e-417c-9027-579f2069a6a5",
       "key": "expireIn",
       "value": "",
       "type": "string"
