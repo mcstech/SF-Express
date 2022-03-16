@@ -87,7 +87,7 @@
         ],
         "body": {
           "mode": "raw",
-          "raw": "",
+          "raw": "{{request_body}}",
           "options": {
             "raw": {
               "language": "text"
@@ -250,61 +250,61 @@
   ],
   "variable": [
     {
-      "id": "7bf49b9f-af6a-47db-a045-b99cd0dfcdf8",
+      "id": "57c6f31d-2b7d-4a4e-a6b9-71d0334f4a15",
       "key": "URL",
       "value": "http://api-ifsp.sit.sf.global",
       "type": "string"
     },
     {
-      "id": "142e2124-65fa-4b15-97a0-20d75a58b2ae",
+      "id": "d9c1786b-07ac-48ad-a2f9-dd9db4404af5",
       "key": "appKey",
       "value": "cdd169d87a4698d314754a79f180308a",
       "type": "string"
     },
     {
-      "id": "b5e15fd5-1fca-4642-ab65-bd6250f16a62",
+      "id": "e29f154b-e481-4bb3-9728-4b60050167e1",
       "key": "signature",
       "value": "",
       "type": "string"
     },
     {
-      "id": "f9cae83f-9e8a-4a90-914e-8a43050ddb45",
+      "id": "7b29e843-1d81-4c00-aa64-dbb03e84c7a4",
       "key": "appSecret",
       "value": "69fb3e868a45d0bdd5b0de0ea1db6ece",
       "type": "string"
     },
     {
-      "id": "db145dbc-41cf-46aa-87b0-d9223e6aa3b1",
+      "id": "a9b20eb8-cdca-4b4a-bcb7-169ef64e68e0",
       "key": "customerCode",
       "value": "ICRME000SRN93",
       "type": "string"
     },
     {
-      "id": "c6c1791f-f034-4e60-83d1-044fe4dc5b1e",
+      "id": "934ced66-d3df-4741-b2ea-97418b51b1a0",
       "key": "aesKey",
       "value": "oI1YdU1cb1YC70HVjZRa3wXBLUsrIUYr5lDh0gFrMbe",
       "type": "string"
     },
     {
-      "id": "0d1b496b-8a11-432d-9174-a9d6120e19f2",
+      "id": "1e310ccd-e4e6-4838-9e45-515c86ce6e95",
       "key": "token",
       "value": "",
       "type": "string"
     },
     {
-      "id": "26e428ee-c801-4832-b4bf-643a7d2eec76",
+      "id": "aa3d8930-d10f-4718-ada7-a6f89559d3fe",
       "key": "expireIn",
       "value": "",
       "type": "string"
     },
     {
-      "id": "213f4737-a024-4e2b-9e63-4cae3f7fb945",
+      "id": "23e31e61-fb4d-46dd-b98c-23c0c8f55eb6",
       "key": "nonce",
       "value": "",
       "type": "string"
     },
     {
-      "id": "2e0653f6-8632-48fc-88e7-9bf4d1082088",
+      "id": "91a5d7c7-5b02-4ea9-b933-ced2796b0c0d",
       "key": "timestamp",
       "value": ""
     }
