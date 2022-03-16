@@ -1,0 +1,270 @@
+{
+  "info": {
+    "_postman_id": "927448a2-2569-486b-a210-522496312f18",
+    "name": "Staging",
+    "schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Order",
+      "_postman_id": "ef01cbc0-d999-4b80-ad81-bea4e181be83",
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      },
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "appKey",
+            "value": "{{appKey}}",
+            "type": "text"
+          },
+          {
+            "key": "token",
+            "value": "{{token}}",
+            "type": "text"
+          },
+          {
+            "key": "timestamp",
+            "value": "{{$timestamp}}",
+            "type": "text"
+          },
+          {
+            "key": "nonce",
+            "value": "",
+            "type": "text"
+          },
+          {
+            "key": "signature",
+            "value": "{{signature}}",
+            "type": "text"
+          },
+          {
+            "key": "msgType",
+            "value": "",
+            "type": "text"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n    \"customerCode\": \"\",\n    \"obj\": {\n        \"customerOrderNo\": \"1111\",\n        \"cargoTypeCode\": \"C940\"\n    },\n    \"orderOperateType\": 1\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": "{{URL}}/order/service"
+      },
+      "response": []
+    },
+    {
+      "name": "Access Token",
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "id": "bb2bc975-b86d-4659-85ee-575ad66b9801",
+            "exec": [
+              "var res = JSON.parse(responseBody);",
+              "",
+              "if (res.data) {",
+              "    pm.environment.set(\"token\", res.apiResultData.accessToken);",
+              "    pm.environment.set(\"expireIn\", res.apiResultData.expireIn);",
+              "}"
+            ],
+            "type": "text/javascript"
+          }
+        }
+      ],
+      "_postman_id": "3dcb240f-3d17-482d-9010-96a4f29e77e2",
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      },
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "lang",
+            "value": "en",
+            "type": "text"
+          }
+        ],
+        "url": {
+          "raw": "{{URL}}/openapi/api/token?appKey={{appKey}}&appSecret={{appSecret}}",
+          "host": [
+            "{{URL}}"
+          ],
+          "path": [
+            "openapi",
+            "api",
+            "token"
+          ],
+          "query": [
+            {
+              "key": "appKey",
+              "value": "{{appKey}}"
+            },
+            {
+              "key": "appSecret",
+              "value": "{{appSecret}}"
+            }
+          ]
+        }
+      },
+      "response": [
+        {
+          "id": "9a8fa4b7-f070-4e84-8226-cfc7450c390a",
+          "name": "Response Example",
+          "originalRequest": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "lang",
+                "value": "en",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{URL}}/openapi/api/token?appKey={{appKey}}&appSecret={{appSecret}}",
+              "host": [
+                "{{URL}}"
+              ],
+              "path": [
+                "openapi",
+                "api",
+                "token"
+              ],
+              "query": [
+                {
+                  "key": "appKey",
+                  "value": "{{appKey}}"
+                },
+                {
+                  "key": "appSecret",
+                  "value": "{{appSecret}}"
+                }
+              ]
+            }
+          },
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": "json",
+          "header": [
+            {
+              "key": "Date",
+              "value": "Wed, 16 Mar 2022 06:41:38 GMT"
+            },
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            },
+            {
+              "key": "Content-Length",
+              "value": "173"
+            },
+            {
+              "key": "X-Kong-Response-Latency",
+              "value": "34"
+            },
+            {
+              "key": "Server",
+              "value": "kong/2.5.0"
+            },
+            {
+              "key": "Via",
+              "value": "1.1 google"
+            }
+          ],
+          "cookie": [],
+          "responseTime": null,
+          "body": "{\n    \"apiResultCode\": 0,\n    \"apiErrorMsg\": null,\n    \"apiTimestamp\": 1647412898115,\n    \"apiResultData\": {\n        \"accessToken\": \"auth_fba5c391-a751-4f47-a394-c6f0bb3c4130_1638339241848\",\n        \"expireIn\": 7200\n    }\n}"
+        }
+      ]
+    }
+  ],
+  "event": [
+    {
+      "listen": "prerequest",
+      "script": {
+        "id": "d82586bc-6119-422a-95a1-521ec2726899",
+        "type": "text/javascript",
+        "exec": [
+          ""
+        ]
+      }
+    },
+    {
+      "listen": "test",
+      "script": {
+        "id": "6e03059e-5140-478c-9051-3cefa0f1026a",
+        "type": "text/javascript",
+        "exec": [
+          ""
+        ]
+      }
+    }
+  ],
+  "variable": [
+    {
+      "id": "5b9212be-8da8-46e4-bb35-8341b9b1d3ed",
+      "key": "URL",
+      "value": "http://api-ifsp.sit.sf.global",
+      "type": "string"
+    },
+    {
+      "id": "2577fdd8-8c82-49f2-802e-0c2f53be282f",
+      "key": "appKey",
+      "value": "cdd169d87a4698d314754a79f180308a",
+      "type": "string"
+    },
+    {
+      "id": "62a5b9fc-03f2-44aa-b8ac-2b403d86533a",
+      "key": "requestId",
+      "value": "",
+      "type": "string"
+    },
+    {
+      "id": "ca4c46f6-cd06-446c-b01a-ef966a05c20f",
+      "key": "signature",
+      "value": "",
+      "type": "string"
+    },
+    {
+      "id": "2951480b-8a0a-4cf8-9299-b8bcb7843133",
+      "key": "v",
+      "value": "2",
+      "type": "string"
+    },
+    {
+      "id": "6dff393c-450c-49f0-b2f4-efca09b91f88",
+      "key": "appSecret",
+      "value": "69fb3e868a45d0bdd5b0de0ea1db6ece",
+      "type": "string"
+    },
+    {
+      "id": "1e3a307b-0d67-481e-9959-b91658bc1554",
+      "key": "customerCode",
+      "value": "ICRME000SRN93",
+      "type": "string"
+    },
+    {
+      "id": "728a5464-cc4f-47a8-8a1d-40068ee2cdc1",
+      "key": "aesKey",
+      "value": "oI1YdU1cb1YC70HVjZRa3wXBLUsrIUYr5lDh0gFrMbe",
+      "type": "string"
+    },
+    {
+      "id": "e0dbc881-eb9f-491d-bbd2-40cbf69aa9a8",
+      "key": "token",
+      "value": "",
+      "type": "string"
+    },
+    {
+      "id": "11d84433-c62f-4b00-9e99-5ec05bc602ff",
+      "key": "expireIn",
+      "value": "",
+      "type": "string"
+    }
+  ]
+}
