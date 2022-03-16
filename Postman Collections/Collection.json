@@ -38,6 +38,22 @@
               "    senderInfo: {",
               "        address: '306 S BRYN MAWR AVE',",
               "        cargoType: 1,",
+              "        certCardNo: '',",
+              "        certType: '',",
+              "        regionSecond: '11A',",
+              "        company: '',",
+              "        contact: '姓名测试',",
+              "        country: 'SG',",
+              "        regionThird: '',",
+              "        email: 'iuop@test.com',",
+              "        eori: '',",
+              "        phoneAreaCode: '65',",
+              "        phoneNo: '54875485',",
+              "        postCode: '759973',",
+              "        regionFirst: 'Admiralty Road East',",
+              "        telAreaCode: '86',",
+              "        telNo: '9516168888',",
+              "        vat: ''",
               "    },",
               "};",
               "",
@@ -285,66 +301,66 @@
   ],
   "variable": [
     {
-      "id": "cf7e09f0-c778-4e71-9fa3-75a3d96f7481",
+      "id": "61e5e795-289a-48fc-ac13-80d765027812",
       "key": "URL",
       "value": "http://api-ifsp.sit.sf.global",
       "type": "string"
     },
     {
-      "id": "44845d90-7595-4eba-90be-5c2d1c1a42c2",
+      "id": "cf092344-e759-4aba-8163-1567faddc6b9",
       "key": "appKey",
       "value": "cdd169d87a4698d314754a79f180308a",
       "type": "string"
     },
     {
-      "id": "e67e0534-7773-4927-a9a5-a17e600c8be8",
+      "id": "9a2ac45a-6222-4564-9fc3-8e5eacf42761",
       "key": "signature",
       "value": "",
       "type": "string"
     },
     {
-      "id": "989f8869-f182-4f6e-85b6-0967d4ce6df7",
+      "id": "9ae0bb65-6704-46ba-8ca8-41639b892697",
       "key": "appSecret",
       "value": "69fb3e868a45d0bdd5b0de0ea1db6ece",
       "type": "string"
     },
     {
-      "id": "36da2ad7-8bb5-496c-8d04-61c0b5b185c1",
+      "id": "1c1a2a92-a42a-40e5-bdcf-343500c423a7",
       "key": "customerCode",
       "value": "ICRME000SRN93",
       "type": "string"
     },
     {
-      "id": "3ac6efc3-760d-4a8c-add2-a43ed945a40e",
+      "id": "dc47aaae-fe6f-4d8f-a6ed-145a50990771",
       "key": "aesKey",
       "value": "oI1YdU1cb1YC70HVjZRa3wXBLUsrIUYr5lDh0gFrMbe",
       "type": "string"
     },
     {
-      "id": "565c8749-155d-4196-89b3-8d0946fee49f",
+      "id": "6a16b0a0-cd2d-4e6a-91b7-dd34713fdae3",
       "key": "token",
       "value": "",
       "type": "string"
     },
     {
-      "id": "39756500-eada-412f-ab0f-107da4dde3d7",
+      "id": "a9d75cfe-f365-4b6c-8245-b43dc35f802c",
       "key": "expireIn",
       "value": "",
       "type": "string"
     },
     {
-      "id": "19a08a94-0c80-4438-840d-3ede5bb21aac",
+      "id": "5d3ba0f7-fe69-444e-b5e7-01d7cc5fee19",
       "key": "nonce",
       "value": "",
       "type": "string"
     },
     {
-      "id": "5a28f0d4-95ba-4d64-83b6-be1517ef4362",
+      "id": "b58eb6ff-1036-4b46-b7eb-19224898ad78",
       "key": "timestamp",
       "value": ""
     },
     {
-      "id": "9aa15720-30e8-42e6-8b89-a831165a0813",
+      "id": "6a9bd302-99b5-4f63-b8ce-9649ca49c1d8",
       "key": "request_body",
       "value": "",
       "type": "string"
