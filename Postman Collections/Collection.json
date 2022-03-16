@@ -27,7 +27,10 @@
               "    sfWaybillNo: 'SF1324481972744'",
               "};",
               "var strData = JSON.stringify(data);",
-              "const keyutf = CryptoJS.enc.Utf8.parse(strData)",
+              "const keyutf = CryptoJS.AES.encrypt(strData);",
+              "",
+              "console.log(keyutf.ciphertext.toString());",
+              "",
               "var toBeEncrypt = token + time + nonce + keyutf;",
               "var signature = CryptoJS.SHA256(toBeEncrypt).toString();",
               "",
@@ -248,61 +251,61 @@
   ],
   "variable": [
     {
-      "id": "e24c1b64-c58e-4b08-95f9-1b7d13173838",
+      "id": "364bf210-8398-4e7e-a81d-b887a4edc5f1",
       "key": "URL",
       "value": "http://api-ifsp.sit.sf.global",
       "type": "string"
     },
     {
-      "id": "2309a1b3-8886-48bc-b6ef-ba0f1eb857e5",
+      "id": "8f452f30-0754-4cea-9272-4677269aea3a",
       "key": "appKey",
       "value": "cdd169d87a4698d314754a79f180308a",
       "type": "string"
     },
     {
-      "id": "b33f5771-e78b-4790-8aa5-2cb0586fbb41",
+      "id": "c78da91a-3dbf-4ad1-b1b8-14c9d62f3807",
       "key": "signature",
       "value": "",
       "type": "string"
     },
     {
-      "id": "e871b1ed-e4b5-4a04-bf60-70dbca5dc204",
+      "id": "41f31b95-5028-482e-96c0-30831d10d4d3",
       "key": "appSecret",
       "value": "69fb3e868a45d0bdd5b0de0ea1db6ece",
       "type": "string"
     },
     {
-      "id": "9b302dc1-06cf-4bef-b2c9-e3918bd599e5",
+      "id": "3b2fbfa0-5a9e-4f22-85ac-def509645902",
       "key": "customerCode",
       "value": "ICRME000SRN93",
       "type": "string"
     },
     {
-      "id": "0778649e-5f79-4a47-a295-4644b23a21b9",
+      "id": "3e391821-ab85-4f02-a057-8e4682c19c5d",
       "key": "aesKey",
       "value": "oI1YdU1cb1YC70HVjZRa3wXBLUsrIUYr5lDh0gFrMbe",
       "type": "string"
     },
     {
-      "id": "4f183f0a-98d2-4f3a-95e5-2fee4a492be8",
+      "id": "ac66c34f-e6f0-4ce2-87d7-20871bfd4244",
       "key": "token",
       "value": "",
       "type": "string"
     },
     {
-      "id": "a7fb2e49-5a78-42c2-aabc-608bb2e055b4",
+      "id": "3c52b114-9550-4323-98ff-20e05ca5e114",
       "key": "expireIn",
       "value": "",
       "type": "string"
     },
     {
-      "id": "25de0ca9-ffdd-431e-8b7d-94ac378b210f",
+      "id": "4b139da3-1124-47c3-83f3-f57238515b56",
       "key": "nonce",
       "value": "",
       "type": "string"
     },
     {
-      "id": "0049f297-f2e5-489f-9f39-8401385c639c",
+      "id": "6d17c20b-b8b4-499b-9a98-7fb219a59520",
       "key": "timestamp",
       "value": ""
     }
