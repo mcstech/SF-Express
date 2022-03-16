@@ -130,11 +130,11 @@
               "    var dataWA = CryptoJS.enc.Utf8.parse(dataz);",
               "    var keyWA = CryptoJS.enc.Base64.parse(aesKeyz);",
               "",
-              "    console.log('keyWA', keyWA);",
+              "    console.log('keyWA', aesKeyz);",
               "",
               "    var ciphertext = CryptoJS",
               "        .AES",
-              "        .encrypt(dataWA, keyWA);",
+              "        .encrypt(dataz, aesKeyz);",
               "        // .ciphertext;",
               "    ",
               "    console.log('ciphertext', ciphertext);",
@@ -356,66 +356,66 @@
   ],
   "variable": [
     {
-      "id": "3b93162e-aa53-4ad6-9e3d-e3bba64739a5",
+      "id": "d69904ee-d6b1-4239-ac4c-34623c0febbd",
       "key": "URL",
       "value": "http://api-ifsp.sit.sf.global",
       "type": "string"
     },
     {
-      "id": "94c7d721-4a0b-4cec-8f1b-20f802e81dce",
+      "id": "6471cbf6-48ad-4ca5-b1f8-085f8217bfa8",
       "key": "appKey",
       "value": "cdd169d87a4698d314754a79f180308a",
       "type": "string"
     },
     {
-      "id": "d35a21e1-61d3-4769-94f3-fd93cf8d5e04",
+      "id": "1802cbf0-162c-4429-b6fc-6a777bf22e34",
       "key": "signature",
       "value": "",
       "type": "string"
     },
     {
-      "id": "2373c292-cf91-4f86-a8b4-37b853df0691",
+      "id": "890d124f-a871-4f3b-87e4-7e70e4eff990",
       "key": "appSecret",
       "value": "69fb3e868a45d0bdd5b0de0ea1db6ece",
       "type": "string"
     },
     {
-      "id": "bdcf645d-efd3-4edb-866f-189cce45a372",
+      "id": "b9976ecd-bfc9-45ae-b49b-fd254b15208f",
       "key": "customerCode",
       "value": "ICRME000SRN93",
       "type": "string"
     },
     {
-      "id": "62812c22-ebc7-4ad0-8771-6b84dce806b6",
+      "id": "8df43e39-ebf8-48e3-9a11-b62389b87b3b",
       "key": "aesKey",
       "value": "oI1YdU1cb1YC70HVjZRa3wXBLUsrIUYr5lDh0gFrMbe",
       "type": "string"
     },
     {
-      "id": "b23874e9-6cac-4556-bf45-a4f88a7f46a7",
+      "id": "735d2c81-dc0f-4cc2-85ac-fc1aadd89faa",
       "key": "token",
       "value": "",
       "type": "string"
     },
     {
-      "id": "9fd45cfe-470b-4ac7-9e4a-bac97066544a",
+      "id": "3ed39e71-46d1-477c-912e-c828bc5256d8",
       "key": "expireIn",
       "value": "",
       "type": "string"
     },
     {
-      "id": "67b2dd0f-858c-4128-8b85-d78f7c4c4520",
+      "id": "7f985fa3-d310-4afd-88db-cdde0d504b4b",
       "key": "nonce",
       "value": "",
       "type": "string"
     },
     {
-      "id": "6a1793a0-a5d5-4808-8fde-effdfbcd72bd",
+      "id": "0064dbde-4596-4b19-a47d-75e41e474455",
       "key": "timestamp",
       "value": ""
     },
     {
-      "id": "18a600ee-2461-4418-8328-1ad0ea3213c7",
+      "id": "429050a5-7d62-4b54-baa1-ae0ca7e68a48",
       "key": "request_body",
       "value": "",
       "type": "string"
