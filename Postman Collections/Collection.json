@@ -31,6 +31,8 @@
               "",
               "console.log(encData.ciphertext.toString());",
               "",
+              "pm.collectionVariables.set('request_body', encData.ciphertext.toString())",
+              "",
               "var toBeEncrypt = token + time + nonce + strData;",
               "var signature = CryptoJS.SHA256(toBeEncrypt).toString();",
               "",
@@ -250,66 +252,66 @@
   ],
   "variable": [
     {
-      "id": "64ddb86a-5b5c-4341-9da7-37a2ae8134c9",
+      "id": "56927d2d-10e8-4c99-a8fd-09173ba1a88d",
       "key": "URL",
       "value": "http://api-ifsp.sit.sf.global",
       "type": "string"
     },
     {
-      "id": "74efb16b-06ee-43e4-a884-0569128289cf",
+      "id": "578e8900-238c-4a85-b50a-30458fb5d164",
       "key": "appKey",
       "value": "cdd169d87a4698d314754a79f180308a",
       "type": "string"
     },
     {
-      "id": "374d6a03-2a72-4887-9e29-40f63c021ea4",
+      "id": "2a9609ba-0802-49fc-9aab-ae96c27f975e",
       "key": "signature",
       "value": "",
       "type": "string"
     },
     {
-      "id": "7f53df76-62b8-47a9-89c1-251bcf919783",
+      "id": "a482d77f-8c85-4417-8bd6-022adc41dff9",
       "key": "appSecret",
       "value": "69fb3e868a45d0bdd5b0de0ea1db6ece",
       "type": "string"
     },
     {
-      "id": "9c8eba10-91f5-445b-8c06-fd066a66cf0c",
+      "id": "165818c0-d84a-4d0b-b1fd-fe1519c01ffc",
       "key": "customerCode",
       "value": "ICRME000SRN93",
       "type": "string"
     },
     {
-      "id": "fd051f59-c1cb-4170-9497-967c9675e30e",
+      "id": "608dfffc-0870-45a4-9985-21574dd840e3",
       "key": "aesKey",
       "value": "oI1YdU1cb1YC70HVjZRa3wXBLUsrIUYr5lDh0gFrMbe",
       "type": "string"
     },
     {
-      "id": "87f62cf6-c154-41f4-ab74-2cdae7f3cffa",
+      "id": "7104ac20-5e43-441e-a605-4d00c5ae4c1d",
       "key": "token",
       "value": "",
       "type": "string"
     },
     {
-      "id": "2e779603-4769-41f2-b0a4-7f04155d7948",
+      "id": "aa582b55-5157-4e8d-a2ea-02beb5408f40",
       "key": "expireIn",
       "value": "",
       "type": "string"
     },
     {
-      "id": "a010e2d5-2427-42b4-a60e-cd83566a93bd",
+      "id": "65e20d15-fd82-4cad-8db3-2d9520afb190",
       "key": "nonce",
       "value": "",
       "type": "string"
     },
     {
-      "id": "40a51acf-fc2f-48e9-8a36-31f34ad4fc27",
+      "id": "fb378aea-83db-4cc5-8ac3-6a4b0435bffc",
       "key": "timestamp",
       "value": ""
     },
     {
-      "id": "eed7a151-8609-4270-a84d-c4b381a588c9",
+      "id": "d0e37dd4-aa1b-4093-aaca-3f13e507a40b",
       "key": "request_body",
       "value": "",
       "type": "string"
