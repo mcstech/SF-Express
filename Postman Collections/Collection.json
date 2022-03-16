@@ -35,6 +35,10 @@
               "        taxPayMethod: '2',",
               "        taxPayMonthCard: ''",
               "    },",
+              "    senderInfo: {",
+              "        address: '306 S BRYN MAWR AVE',",
+              "        cargoType: 1,",
+              "    },",
               "};",
               "",
               "",
@@ -281,66 +285,66 @@
   ],
   "variable": [
     {
-      "id": "4414abf4-3e4c-41aa-a921-5d1a7f86998c",
+      "id": "cf7e09f0-c778-4e71-9fa3-75a3d96f7481",
       "key": "URL",
       "value": "http://api-ifsp.sit.sf.global",
       "type": "string"
     },
     {
-      "id": "3d7cabb1-33a9-403d-9b3d-423d2545e8b5",
+      "id": "44845d90-7595-4eba-90be-5c2d1c1a42c2",
       "key": "appKey",
       "value": "cdd169d87a4698d314754a79f180308a",
       "type": "string"
     },
     {
-      "id": "82fb1248-3aa8-401e-8ccc-23398f1bcba4",
+      "id": "e67e0534-7773-4927-a9a5-a17e600c8be8",
       "key": "signature",
       "value": "",
       "type": "string"
     },
     {
-      "id": "ef770f8c-7659-4f36-8c74-6afb31f0df71",
+      "id": "989f8869-f182-4f6e-85b6-0967d4ce6df7",
       "key": "appSecret",
       "value": "69fb3e868a45d0bdd5b0de0ea1db6ece",
       "type": "string"
     },
     {
-      "id": "74c10292-bf7f-46e2-ba95-63af5ffad668",
+      "id": "36da2ad7-8bb5-496c-8d04-61c0b5b185c1",
       "key": "customerCode",
       "value": "ICRME000SRN93",
       "type": "string"
     },
     {
-      "id": "7f3d4163-8215-476a-93b6-5da03040d221",
+      "id": "3ac6efc3-760d-4a8c-add2-a43ed945a40e",
       "key": "aesKey",
       "value": "oI1YdU1cb1YC70HVjZRa3wXBLUsrIUYr5lDh0gFrMbe",
       "type": "string"
     },
     {
-      "id": "1892bbfc-d778-4134-9e6f-67a51925ba15",
+      "id": "565c8749-155d-4196-89b3-8d0946fee49f",
       "key": "token",
       "value": "",
       "type": "string"
     },
     {
-      "id": "e852d2b2-025e-43e8-b8b4-23a463518f16",
+      "id": "39756500-eada-412f-ab0f-107da4dde3d7",
       "key": "expireIn",
       "value": "",
       "type": "string"
     },
     {
-      "id": "adb57662-8f9c-4ed5-9527-3578f027da45",
+      "id": "19a08a94-0c80-4438-840d-3ede5bb21aac",
       "key": "nonce",
       "value": "",
       "type": "string"
     },
     {
-      "id": "adb5bd3d-5ab7-4e74-bc72-ba97c3c997c1",
+      "id": "5a28f0d4-95ba-4d64-83b6-be1517ef4362",
       "key": "timestamp",
       "value": ""
     },
     {
-      "id": "21cdec6d-455b-4741-ade4-3df5f5f6568a",
+      "id": "9aa15720-30e8-42e6-8b89-a831165a0813",
       "key": "request_body",
       "value": "",
       "type": "string"
