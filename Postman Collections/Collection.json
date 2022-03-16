@@ -91,7 +91,9 @@
               "            goodsCode: '',",
               "            goodsDesc: '',",
               "            goodsUrl: '',",
-              "            ",
+              "            hsCode: '',",
+              "            name: 'iPhone',",
+              "            originCountry: 'SG'",
               "        }",
               "    ],",
               "};",
@@ -340,66 +342,66 @@
   ],
   "variable": [
     {
-      "id": "081a5dc7-e121-4ef8-9137-9e124ba5b88f",
+      "id": "bfaf1cb3-de04-4d9b-8767-2eb79e144ca3",
       "key": "URL",
       "value": "http://api-ifsp.sit.sf.global",
       "type": "string"
     },
     {
-      "id": "ef43bad2-037b-4473-b62d-e4ae4b87b16d",
+      "id": "efc8bfb0-7365-429c-8960-79c4822201ed",
       "key": "appKey",
       "value": "cdd169d87a4698d314754a79f180308a",
       "type": "string"
     },
     {
-      "id": "82176809-61ed-4bbe-a126-87c0482ae26c",
+      "id": "6f2edd2b-068a-4d6f-8175-0c5a8ce57786",
       "key": "signature",
       "value": "",
       "type": "string"
     },
     {
-      "id": "11174a90-4b2e-4f63-af80-d42249f5521f",
+      "id": "f75d3124-bf85-4ada-a506-dd1cf6952790",
       "key": "appSecret",
       "value": "69fb3e868a45d0bdd5b0de0ea1db6ece",
       "type": "string"
     },
     {
-      "id": "2ec3b6e0-7d03-4b83-9697-93f19e8a786c",
+      "id": "dd17d31a-bd2c-42a9-b570-9b398f615444",
       "key": "customerCode",
       "value": "ICRME000SRN93",
       "type": "string"
     },
     {
-      "id": "43f51854-8ec3-4791-9368-b1388e58ffc0",
+      "id": "1be52779-b66b-4e77-8ab0-4a32a1b700da",
       "key": "aesKey",
       "value": "oI1YdU1cb1YC70HVjZRa3wXBLUsrIUYr5lDh0gFrMbe",
       "type": "string"
     },
     {
-      "id": "6b1ac523-1581-4313-9fe4-de3759096e61",
+      "id": "2eaf65b1-11c3-479d-b3e1-71200599dbe3",
       "key": "token",
       "value": "",
       "type": "string"
     },
     {
-      "id": "7770e4f3-500d-4d04-b133-92a5a0a68375",
+      "id": "d5b33ed6-2ace-4a22-8446-daa0c3ceebc1",
       "key": "expireIn",
       "value": "",
       "type": "string"
     },
     {
-      "id": "591e59c3-a72d-4a13-b02c-da01e0f7a41e",
+      "id": "cedf8746-138a-4be7-880b-cdff729bb259",
       "key": "nonce",
       "value": "",
       "type": "string"
     },
     {
-      "id": "104c9873-9ff6-473d-9f94-a25a57c32577",
+      "id": "5de9b3f1-808a-4815-b5d0-b6cf92c3a35a",
       "key": "timestamp",
       "value": ""
     },
     {
-      "id": "2d75227b-351b-4ac7-9a12-ef072c691701",
+      "id": "a8e0651a-eb82-47a0-8f77-1d1b429bee62",
       "key": "request_body",
       "value": "",
       "type": "string"
