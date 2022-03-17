@@ -13,15 +13,14 @@
           "script": {
             "id": "102409cd-f4bc-4cc3-9cde-ab3d14dc5779",
             "exec": [
-              "var appKey = pm.collectionVariables.get(\"appKey\");",
               "var aesKey = pm.collectionVariables.get(\"aesKey\");",
               "var token = pm.collectionVariables.get(\"token\");",
               "var time = (new Date()).getTime();",
+              "var nonce = pm.collectionVariables.get(\"nonce\");",
+              "var appKey = pm.collectionVariables.get(\"appKey\");å",
+              "var customerCode = pm.collectionVariables.get(\"customerCode\");",
               "",
               "pm.collectionVariables.set(\"timestamp\", time);",
-              "",
-              "var nonce = pm.collectionVariables.get(\"nonce\");",
-              "var customerCode = pm.collectionVariables.get(\"customerCode\");",
               "",
               "var data = {",
               "    customerCode: 'ICRMXXXXXXX',",
@@ -106,8 +105,6 @@
               "",
               "var strData = JSON.stringify(data);",
               "",
-              "console.log('stringified data', strData);",
-              "",
               "var cipherData = encrypt(strData, aesKey);",
               "",
               "// console.log('encryptedData:', cipherData);",
@@ -118,6 +115,19 @@
               "var signature = CryptoJS.SHA256(toBeEncrypt).toString();",
               "",
               "pm.collectionVariables.set(\"signature\", signature);",
+              "",
+              "class BizMsgCrypt {",
+              "    constructor(token, encodingAesKey, appId) {",
+              "        this.order = order;",
+              "        this.config = config;",
+              "        this.token = token;",
+              "        if (strlen(encodingAesKey) != 43) {",
+              "            throw new Error('invalid aes key');",
+              "        }",
+              "        $this.encodingAesKey = encodingAesKey;",
+              "\t\t$this.appId = $appId;",
+              "    }",
+              "}",
               "",
               "console.log('toBeEncrypt:', toBeEncrypt);",
               "console.log('timestamp:', time);",
@@ -365,66 +375,66 @@
   ],
   "variable": [
     {
-      "id": "fee9a182-3a97-474a-b6bf-f5716dea742c",
+      "id": "dad9fcff-890e-4034-8d87-3664b4fff04f",
       "key": "URL",
       "value": "http://api-ifsp.sit.sf.global",
       "type": "string"
     },
     {
-      "id": "3ddfa27e-5196-4992-9ed9-eba3ee776259",
+      "id": "ab836f6a-4b28-44e5-9e5c-703d0e5da577",
       "key": "appKey",
       "value": "cdd169d87a4698d314754a79f180308a",
       "type": "string"
     },
     {
-      "id": "3c1dbe91-2e5d-43f9-98e4-b6aac6285dc5",
+      "id": "a6176a5a-eb0f-44b4-afbd-bf6dd0d00109",
       "key": "signature",
       "value": "",
       "type": "string"
     },
     {
-      "id": "48ca02ee-0fe9-4a84-a727-fc3b8dc44af4",
+      "id": "98d942c0-a23e-4d14-8289-d38d6bd765d9",
       "key": "appSecret",
       "value": "69fb3e868a45d0bdd5b0de0ea1db6ece",
       "type": "string"
     },
     {
-      "id": "3c53ede8-2c9f-445b-bb5c-45ee2fa46dd9",
+      "id": "c5aba532-b85b-4c73-9f1f-89908ce0861c",
       "key": "customerCode",
       "value": "ICRME000SRN93",
       "type": "string"
     },
     {
-      "id": "5e23f66c-082e-45e3-b95e-36e39a8e3335",
+      "id": "16fe6303-d69b-4e19-bab5-e9dddcfb1c6b",
       "key": "aesKey",
       "value": "oI1YdU1cb1YC70HVjZRa3wXBLUsrIUYr5lDh0gFrMbe",
       "type": "string"
     },
     {
-      "id": "d056c3b1-0e5f-4fa2-b948-f4406ca3c2f9",
+      "id": "665ffa86-0145-4811-8e03-c9d6f29d2f70",
       "key": "token",
       "value": "",
       "type": "string"
     },
     {
-      "id": "6fe8da49-2250-4c1f-99b9-f722032b21be",
+      "id": "04b2a21f-9f8a-4ff3-a154-188147b7c04c",
       "key": "expireIn",
       "value": "",
       "type": "string"
     },
     {
-      "id": "ddb9ed8a-eae0-4fd5-a597-1e4884ce6639",
+      "id": "e0fca3dd-b40e-441b-8d40-2cc60c80d484",
       "key": "nonce",
       "value": "",
       "type": "string"
     },
     {
-      "id": "15f23490-a34a-491a-908e-15ab68c21105",
+      "id": "b9d37422-7ea1-4fb8-8f88-e6298f45037e",
       "key": "timestamp",
       "value": ""
     },
     {
-      "id": "7e928b4e-42fc-4668-b088-6b15e26ae032",
+      "id": "3503f7c6-995f-4cf9-802a-23263c7bf056",
       "key": "request_body",
       "value": "",
       "type": "string"
