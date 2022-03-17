@@ -145,22 +145,22 @@
               "        str_pol = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789abcdefghijklmnopqrstuvwxyz';",
               "        max = str_pol.length - 1;",
               "        for (i = 0; i < 16; i++) {",
-              "            str .= str_pol[this.mtRand(0, max)];",
+              "            str.concat(str_pol[this.mtRand(0, max)]);",
               "        }",
               "        return str;",
               "    }",
               "    mtRand (min, max) {",
-              "        const argc = arguments.length",
+              "        const argc = arguments.length;",
               "        if (argc === 0) {",
-              "            min = 0",
-              "            max = 2147483647",
+              "            min = 0;",
+              "            max = 2147483647;",
               "        } else if (argc === 1) {",
-              "            throw new Error('Warning: mt_rand() expects exactly 2 parameters, 1 given')",
+              "            throw new Error('Warning: mt_rand() expects exactly 2 parameters, 1 given');",
               "        } else {",
-              "            min = parseInt(min, 10)",
-              "            max = parseInt(max, 10)",
+              "            min = parseInt(min, 10);",
+              "            max = parseInt(max, 10);",
               "        }",
-              "        return Math.floor(Math.random() * (max - min + 1)) + min",
+              "        return Math.floor(Math.random() * (max - min + 1)) + min;",
               "    }",
               "}",
               "",
@@ -410,66 +410,66 @@
   ],
   "variable": [
     {
-      "id": "236e6d51-87bf-48ca-a8bb-ca75d27ef4f8",
+      "id": "e34e05e2-8147-4bb8-aded-3384e8523c02",
       "key": "URL",
       "value": "http://api-ifsp.sit.sf.global",
       "type": "string"
     },
     {
-      "id": "90075783-184d-453b-93e9-501f4b2ce538",
+      "id": "994d03f0-4b45-4bd3-9077-6ea8dfd6fe7a",
       "key": "appKey",
       "value": "cdd169d87a4698d314754a79f180308a",
       "type": "string"
     },
     {
-      "id": "10d450f3-4df2-47a3-839b-dbdc86c582d2",
+      "id": "a3d8ce5a-775b-4c8f-bb68-1a4e8442cc14",
       "key": "signature",
       "value": "",
       "type": "string"
     },
     {
-      "id": "ad7b63c1-10f6-4294-9831-d2446b7e7652",
+      "id": "93cf322a-5162-4f94-a393-04c00daa83d2",
       "key": "appSecret",
       "value": "69fb3e868a45d0bdd5b0de0ea1db6ece",
       "type": "string"
     },
     {
-      "id": "0af8debc-eab5-4cc7-a128-782e4190967a",
+      "id": "8a7ef24c-e9c7-481b-ac76-bc9254f2820f",
       "key": "customerCode",
       "value": "ICRME000SRN93",
       "type": "string"
     },
     {
-      "id": "8a6e0964-fb63-4b8c-8a0a-cce074422780",
+      "id": "716b2fe4-0100-4a73-8648-94904d4cbe3c",
       "key": "aesKey",
       "value": "oI1YdU1cb1YC70HVjZRa3wXBLUsrIUYr5lDh0gFrMbe",
       "type": "string"
     },
     {
-      "id": "c90df2c5-e5c9-4d61-8b98-f569d596c1ea",
+      "id": "6ace2a4b-8f47-41b8-a36a-6fd59cba35f9",
       "key": "token",
       "value": "",
       "type": "string"
     },
     {
-      "id": "9cbb66d8-d1eb-493b-a88c-8160758e1967",
+      "id": "29495dc8-a766-4220-9f28-0b378e1e3fe6",
       "key": "expireIn",
       "value": "",
       "type": "string"
     },
     {
-      "id": "4ad3eecb-2a3b-4b88-8650-47e3c640bfe2",
+      "id": "566cf21f-7dff-4e56-a2f6-b37eb24109d0",
       "key": "nonce",
       "value": "",
       "type": "string"
     },
     {
-      "id": "ed51fd90-1f87-484a-a0e8-972b17e50d10",
+      "id": "648e275f-babd-45c2-8369-339007935716",
       "key": "timestamp",
       "value": ""
     },
     {
-      "id": "6db8897b-de0b-427b-91ce-90ecdbee2554",
+      "id": "7a710a9f-31cf-4e25-8f47-69a3d7657a18",
       "key": "request_body",
       "value": "",
       "type": "string"
