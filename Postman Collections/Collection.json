@@ -46,7 +46,7 @@
               "                // .ciphertext;",
               "            // const ivCiphertext = iv.clone().concat(ciphertext);",
               "            // const ivCiphertextB64 = ivCiphertext.toString();",
-              "            console.log('AES encrypted message', ivCiphertextB64);",
+              "            console.log('AES encrypted message', ciphertext.toString());",
               "            return ciphertext.toString();",
               "        } catch (err) {",
               "            console.log('AesCrpty err', err.message);",
@@ -819,66 +819,66 @@
   ],
   "variable": [
     {
-      "id": "38d97edb-5ee9-4659-99ce-9a7608c6e171",
+      "id": "8e4a18c9-94fd-45d6-aee8-272cfc2fcc14",
       "key": "URL",
       "value": "http://api-ifsp.sit.sf.global",
       "type": "string"
     },
     {
-      "id": "0f352f20-ab33-4a16-b479-3ff866385c39",
+      "id": "020e3e76-cab2-4397-81cf-49a7dbcc40c5",
       "key": "appKey",
       "value": "cdd169d87a4698d314754a79f180308a",
       "type": "string"
     },
     {
-      "id": "cfa297b0-8ebb-48e7-bd1d-dec7188eac0b",
+      "id": "c7b97007-1afb-4f57-a56d-92bc8efcaad8",
       "key": "appSecret",
       "value": "69fb3e868a45d0bdd5b0de0ea1db6ece",
       "type": "string"
     },
     {
-      "id": "b0b938c6-7cbd-4d61-92f3-1539790040af",
+      "id": "1b9f6b06-b6c8-45d5-914f-6e5959bad576",
       "key": "customerCode",
       "value": "ICRME000SRN93",
       "type": "string"
     },
     {
-      "id": "397a2da9-b538-4ac8-a454-60c50c9e849b",
+      "id": "2f031546-5670-4f33-8da0-80aa0476df4a",
       "key": "aesKey",
       "value": "oI1YdU1cb1YC70HVjZRa3wXBLUsrIUYr5lDh0gFrMbe",
       "type": "string"
     },
     {
-      "id": "a6b4835a-65f5-4c66-a548-4d2188d9cbe4",
+      "id": "e2ff55a7-db8a-45f8-839e-1c141208b595",
       "key": "token",
       "value": "",
       "type": "string"
     },
     {
-      "id": "08be424b-4f08-441c-be9b-90518ab670eb",
+      "id": "3b0547f9-7f30-4897-b6b6-d58d3f7632a7",
       "key": "expireIn",
       "value": "",
       "type": "string"
     },
     {
-      "id": "2aa318b8-41d9-41c6-9b8b-25b3a2d67e83",
+      "id": "52292d68-966a-45be-9aa8-8e767f5c3fee",
       "key": "nonce",
       "value": "",
       "type": "string"
     },
     {
-      "id": "d1da67e5-563a-4c8e-a15b-0ae339837b63",
+      "id": "dc035bdf-5288-4825-9fac-34a5fc966e8f",
       "key": "timestamp",
       "value": ""
     },
     {
-      "id": "d9f2af61-ff2f-4bc6-a778-b650d3284e70",
+      "id": "d811d479-1ef9-4695-aa08-45db77c307a6",
       "key": "request_body",
       "value": "null",
       "type": "string"
     },
     {
-      "id": "11b06820-1555-4e12-a1cf-e156fa04534b",
+      "id": "c5c3406e-46dc-4a8d-9c45-2aa572258edd",
       "key": "signature",
       "value": "null",
       "type": "string"
