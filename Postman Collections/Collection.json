@@ -16,7 +16,8 @@
               "class AesCrypt {",
               "    key;",
               "    constructor(k) {",
-              "        this.key = `${k.replace(/\\s/g, '+')}=`;",
+              "        this.key = CryptoJS.enc.Base64.parse(`${k.replace(/\\s/g, '+')}=`);",
+              "        console.log('convert', this.key)",
               "    }",
               "    async encrypt(text, appid) {",
               "        try {",
@@ -26,8 +27,7 @@
               "            // const txt = `${text}`;",
               "            console.log('random+text+appid', txt);",
               "            // const iv = this.key.substr(0, 16);",
-              "            const iv = CryptoJS.lib.WordArray.create(this.key.substr(0, 16));",
-              "            console.log('iv', iv)",
+              "            const iv = CryptoJS.lib.WordArray.create(this.key);",
               "            const dataWA = CryptoJS.enc.Utf8.parse(txt);",
               "            const keyWA = CryptoJS.enc.Base64.parse(this.key);",
               "            const ciphertext = CryptoJS",
@@ -35,7 +35,7 @@
               "                .encrypt(dataWA, keyWA, {iv: iv})",
               "                .ciphertext;",
               "            const ivCiphertext = iv.clone().concat(ciphertext);",
-              "            const ivCiphertextB64 = ivCiphertext.toString(CryptoJS.enc.Base64);",
+              "            const ivCiphertextB64 = ivCiphertext.toString();",
               "            console.log('AES encrypted message', ivCiphertextB64);",
               "            return ivCiphertextB64;",
               "        } catch (err) {",
@@ -805,66 +805,66 @@
   ],
   "variable": [
     {
-      "id": "e07aa61f-48a3-4c17-9cd6-8bf92e0edab6",
+      "id": "e7868aa3-1a1a-4b68-afeb-faa54a03e101",
       "key": "URL",
       "value": "http://api-ifsp.sit.sf.global",
       "type": "string"
     },
     {
-      "id": "444df9f5-829e-4033-a786-947fed8e4e7f",
+      "id": "54a8f059-296b-4467-8b86-b7d936fc23b5",
       "key": "appKey",
       "value": "cdd169d87a4698d314754a79f180308a",
       "type": "string"
     },
     {
-      "id": "9c17f58a-10a9-4181-a468-eb0bc0b86abc",
+      "id": "6cbf6523-91bc-428e-95b0-df2cc9edaca7",
       "key": "appSecret",
       "value": "69fb3e868a45d0bdd5b0de0ea1db6ece",
       "type": "string"
     },
     {
-      "id": "c2aedae4-3c5c-488c-98e8-5972df57bb94",
+      "id": "eec6c6d6-5bb0-4c3a-94a1-85894091b83c",
       "key": "customerCode",
       "value": "ICRME000SRN93",
       "type": "string"
     },
     {
-      "id": "511dcc4c-2d94-4378-92b6-9ff14fdd75b9",
+      "id": "039bd672-c23d-492f-9447-c222bf91d1ab",
       "key": "aesKey",
       "value": "oI1YdU1cb1YC70HVjZRa3wXBLUsrIUYr5lDh0gFrMbe",
       "type": "string"
     },
     {
-      "id": "504e95a7-1827-47db-91e3-29efaafdfe20",
+      "id": "58f1e577-8ac5-4d6c-bbea-ee19abbd5e59",
       "key": "token",
       "value": "",
       "type": "string"
     },
     {
-      "id": "90792c6e-b9a0-42b1-adae-93d4516d822f",
+      "id": "5ca0a7c2-ad8b-4d18-bbf1-bd1c39415317",
       "key": "expireIn",
       "value": "",
       "type": "string"
     },
     {
-      "id": "861b1915-4a54-4747-8101-bca0247f7e58",
+      "id": "a68d3c47-dd73-4028-8cbb-408423d30918",
       "key": "nonce",
       "value": "",
       "type": "string"
     },
     {
-      "id": "edb4bcec-7a33-4f80-9855-0a9c4e9247c1",
+      "id": "462feab4-a52d-4bb1-9224-bc1d8f0bbbfb",
       "key": "timestamp",
       "value": ""
     },
     {
-      "id": "d0be823e-d7bc-4031-b7f3-4d6415df892a",
+      "id": "2b8c7f7e-9877-4591-8347-799cd458b98a",
       "key": "request_body",
       "value": "null",
       "type": "string"
     },
     {
-      "id": "0ba4e9ec-77db-4673-88d1-8c0d09bdf844",
+      "id": "d2276f17-3277-4fdd-a980-34ad018b9560",
       "key": "signature",
       "value": "null",
       "type": "string"
