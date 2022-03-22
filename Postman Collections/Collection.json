@@ -6,6 +6,133 @@
   },
   "item": [
     {
+      "name": "Access Token",
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "id": "bb2bc975-b86d-4659-85ee-575ad66b9801",
+            "exec": [
+              "var res = JSON.parse(responseBody);",
+              "",
+              "if (res.apiResultData) {",
+              "    pm.collectionVariables.set(\"token\", res.apiResultData.accessToken);",
+              "    pm.collectionVariables.set(\"expireIn\", res.apiResultData.expireIn);",
+              "    var uuid = require('uuid');",
+              "    var nonce = uuid.v4(); ",
+              "    pm.collectionVariables.set(\"nonce\", nonce);",
+              "}"
+            ],
+            "type": "text/javascript"
+          }
+        }
+      ],
+      "id": "3dcb240f-3d17-482d-9010-96a4f29e77e2",
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      },
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "lang",
+            "value": "en",
+            "type": "text"
+          }
+        ],
+        "url": {
+          "raw": "{{URL}}/openapi/api/token?appKey={{appKey}}&appSecret={{appSecret}}",
+          "host": [
+            "{{URL}}"
+          ],
+          "path": [
+            "openapi",
+            "api",
+            "token"
+          ],
+          "query": [
+            {
+              "key": "appKey",
+              "value": "{{appKey}}"
+            },
+            {
+              "key": "appSecret",
+              "value": "{{appSecret}}"
+            }
+          ]
+        }
+      },
+      "response": [
+        {
+          "id": "9a8fa4b7-f070-4e84-8226-cfc7450c390a",
+          "name": "Response Example",
+          "originalRequest": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "lang",
+                "value": "en",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{URL}}/openapi/api/token?appKey={{appKey}}&appSecret={{appSecret}}",
+              "host": [
+                "{{URL}}"
+              ],
+              "path": [
+                "openapi",
+                "api",
+                "token"
+              ],
+              "query": [
+                {
+                  "key": "appKey",
+                  "value": "{{appKey}}"
+                },
+                {
+                  "key": "appSecret",
+                  "value": "{{appSecret}}"
+                }
+              ]
+            }
+          },
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": "json",
+          "header": [
+            {
+              "key": "Date",
+              "value": "Wed, 16 Mar 2022 06:41:38 GMT"
+            },
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            },
+            {
+              "key": "Content-Length",
+              "value": "173"
+            },
+            {
+              "key": "X-Kong-Response-Latency",
+              "value": "34"
+            },
+            {
+              "key": "Server",
+              "value": "kong/2.5.0"
+            },
+            {
+              "key": "Via",
+              "value": "1.1 google"
+            }
+          ],
+          "cookie": [],
+          "responseTime": null,
+          "body": "{\n    \"apiResultCode\": 0,\n    \"apiErrorMsg\": null,\n    \"apiTimestamp\": 1647412898115,\n    \"apiResultData\": {\n        \"accessToken\": \"auth_fba5c391-a751-4f47-a394-c6f0bb3c4130_1638339241848\",\n        \"expireIn\": 7200\n    }\n}"
+        }
+      ]
+    },
+    {
       "name": "Order",
       "event": [
         {
@@ -663,133 +790,6 @@
         "url": "{{URL}}/openapi/api/dispatch/"
       },
       "response": []
-    },
-    {
-      "name": "Access Token",
-      "event": [
-        {
-          "listen": "test",
-          "script": {
-            "id": "bb2bc975-b86d-4659-85ee-575ad66b9801",
-            "exec": [
-              "var res = JSON.parse(responseBody);",
-              "",
-              "if (res.apiResultData) {",
-              "    pm.collectionVariables.set(\"token\", res.apiResultData.accessToken);",
-              "    pm.collectionVariables.set(\"expireIn\", res.apiResultData.expireIn);",
-              "    var uuid = require('uuid');",
-              "    var nonce = uuid.v4(); ",
-              "    pm.collectionVariables.set(\"nonce\", nonce);",
-              "}"
-            ],
-            "type": "text/javascript"
-          }
-        }
-      ],
-      "id": "3dcb240f-3d17-482d-9010-96a4f29e77e2",
-      "protocolProfileBehavior": {
-        "disableBodyPruning": true
-      },
-      "request": {
-        "method": "GET",
-        "header": [
-          {
-            "key": "lang",
-            "value": "en",
-            "type": "text"
-          }
-        ],
-        "url": {
-          "raw": "{{URL}}/openapi/api/token?appKey={{appKey}}&appSecret={{appSecret}}",
-          "host": [
-            "{{URL}}"
-          ],
-          "path": [
-            "openapi",
-            "api",
-            "token"
-          ],
-          "query": [
-            {
-              "key": "appKey",
-              "value": "{{appKey}}"
-            },
-            {
-              "key": "appSecret",
-              "value": "{{appSecret}}"
-            }
-          ]
-        }
-      },
-      "response": [
-        {
-          "id": "9a8fa4b7-f070-4e84-8226-cfc7450c390a",
-          "name": "Response Example",
-          "originalRequest": {
-            "method": "GET",
-            "header": [
-              {
-                "key": "lang",
-                "value": "en",
-                "type": "text"
-              }
-            ],
-            "url": {
-              "raw": "{{URL}}/openapi/api/token?appKey={{appKey}}&appSecret={{appSecret}}",
-              "host": [
-                "{{URL}}"
-              ],
-              "path": [
-                "openapi",
-                "api",
-                "token"
-              ],
-              "query": [
-                {
-                  "key": "appKey",
-                  "value": "{{appKey}}"
-                },
-                {
-                  "key": "appSecret",
-                  "value": "{{appSecret}}"
-                }
-              ]
-            }
-          },
-          "status": "OK",
-          "code": 200,
-          "_postman_previewlanguage": "json",
-          "header": [
-            {
-              "key": "Date",
-              "value": "Wed, 16 Mar 2022 06:41:38 GMT"
-            },
-            {
-              "key": "Content-Type",
-              "value": "application/json"
-            },
-            {
-              "key": "Content-Length",
-              "value": "173"
-            },
-            {
-              "key": "X-Kong-Response-Latency",
-              "value": "34"
-            },
-            {
-              "key": "Server",
-              "value": "kong/2.5.0"
-            },
-            {
-              "key": "Via",
-              "value": "1.1 google"
-            }
-          ],
-          "cookie": [],
-          "responseTime": null,
-          "body": "{\n    \"apiResultCode\": 0,\n    \"apiErrorMsg\": null,\n    \"apiTimestamp\": 1647412898115,\n    \"apiResultData\": {\n        \"accessToken\": \"auth_fba5c391-a751-4f47-a394-c6f0bb3c4130_1638339241848\",\n        \"expireIn\": 7200\n    }\n}"
-        }
-      ]
     }
   ],
   "event": [
@@ -816,66 +816,66 @@
   ],
   "variable": [
     {
-      "id": "77f4c199-c546-45e1-87fb-1cb71d416bbc",
+      "id": "94c2c9ef-f78d-426d-8039-f3e34a788658",
       "key": "URL",
       "value": "http://api-ifsp.sit.sf.global",
       "type": "string"
     },
     {
-      "id": "1a19daf7-7121-4de5-a1a3-61860e0beb76",
+      "id": "b230700f-3372-4646-ae4a-51753c6b2efe",
       "key": "appKey",
       "value": "cdd169d87a4698d314754a79f180308a",
       "type": "string"
     },
     {
-      "id": "734f27b1-64e7-4c9e-8067-32f2edd94a70",
+      "id": "ccd7a25c-9611-4cd0-ab28-108faef3b022",
       "key": "appSecret",
       "value": "69fb3e868a45d0bdd5b0de0ea1db6ece",
       "type": "string"
     },
     {
-      "id": "de95e2c6-ee67-4128-8653-8b8e17d5e70d",
+      "id": "271625ef-a938-4c9e-8b20-a6535d5d93a7",
       "key": "customerCode",
       "value": "ICRME000SRN93",
       "type": "string"
     },
     {
-      "id": "012144a1-b816-48fe-880f-23c07d60c478",
+      "id": "c8a17213-fe58-49a3-8d1c-798816fde478",
       "key": "aesKey",
       "value": "oI1YdU1cb1YC70HVjZRa3wXBLUsrIUYr5lDh0gFrMbe",
       "type": "string"
     },
     {
-      "id": "905b8cf6-e757-4a7c-ad9a-bfd4cb6bfb01",
+      "id": "d87cd254-5972-416d-8b3f-1a0214e2aed7",
       "key": "token",
       "value": "",
       "type": "string"
     },
     {
-      "id": "341a6dea-e92d-4e0c-9946-02846a364a8e",
+      "id": "78683983-b276-4740-a7d5-3cc269e21e8e",
       "key": "expireIn",
       "value": "",
       "type": "string"
     },
     {
-      "id": "41cb32d2-51fd-400d-8d0a-4834cf1d3b24",
+      "id": "bdc81750-94e6-464e-bc82-1b8d19290c01",
       "key": "nonce",
       "value": "",
       "type": "string"
     },
     {
-      "id": "6f639d66-238e-4209-9af6-b3e15fe42022",
+      "id": "868fd943-b4cc-48b3-8420-5634c22dd3b5",
       "key": "timestamp",
       "value": ""
     },
     {
-      "id": "35656133-2806-4380-952b-2489d5975bee",
+      "id": "0b0bc9e5-1a5d-4b6e-a855-f7166c56f89a",
       "key": "request_body",
       "value": "null",
       "type": "string"
     },
     {
-      "id": "7fee64ca-5713-4d09-bdfc-3cb2f2a9a25a",
+      "id": "3ac22051-26cd-48ee-b161-c14e0ffb6dc9",
       "key": "signature",
       "value": "null",
       "type": "string"
