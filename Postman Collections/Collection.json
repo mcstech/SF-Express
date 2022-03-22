@@ -23,7 +23,7 @@
               "        try {",
               "            const random = await this.getRandomStr();",
               "            const packedText = await pack('N', text.length);",
-              "            const txt = `${random}${text}${appid}`;",
+              "            const txt = `${random}${packedText}${text}${appid}`;",
               "            // const txt = `${text}`;",
               "            console.log('random+text+appid', txt);",
               "            // const iv = this.key.substr(0, 16);",
@@ -781,66 +781,66 @@
   ],
   "variable": [
     {
-      "id": "3b8b5e4d-6136-4601-81ce-3309eee0f8bf",
+      "id": "1d97c39c-d9f5-4800-9504-4182449e27a3",
       "key": "URL",
       "value": "http://api-ifsp.sit.sf.global",
       "type": "string"
     },
     {
-      "id": "c7b7c18f-5e2e-402b-bdda-cf2fc8b41b39",
+      "id": "72aa5cb2-cdc7-4c81-81d6-78fc06a50cf4",
       "key": "appKey",
       "value": "cdd169d87a4698d314754a79f180308a",
       "type": "string"
     },
     {
-      "id": "d654f773-f9b0-4af1-a92c-6a20d83a23dd",
+      "id": "6409fbc2-d56a-43b0-837d-7510a6f7cd9c",
       "key": "appSecret",
       "value": "69fb3e868a45d0bdd5b0de0ea1db6ece",
       "type": "string"
     },
     {
-      "id": "d2dccd08-20f8-4b8b-8541-4e62c24ffb8b",
+      "id": "619c7587-1b55-4a88-9acb-d4f68f6f3321",
       "key": "customerCode",
       "value": "ICRME000SRN93",
       "type": "string"
     },
     {
-      "id": "4cac707b-ada2-4e88-bac6-e8b4a62d5381",
+      "id": "c5194de4-703d-4e4e-9aaa-f0f83756e02f",
       "key": "aesKey",
       "value": "oI1YdU1cb1YC70HVjZRa3wXBLUsrIUYr5lDh0gFrMbe",
       "type": "string"
     },
     {
-      "id": "227e5712-9b40-4ef6-82f9-ad96fd5c1bcb",
+      "id": "7b6f7f88-f51e-4f7d-9d99-fca77dcdfd4e",
       "key": "token",
       "value": "",
       "type": "string"
     },
     {
-      "id": "c2a6b743-0f20-40a5-9126-d75b3c53363f",
+      "id": "3b27a729-2135-4fe1-a805-e354db9d2dc0",
       "key": "expireIn",
       "value": "",
       "type": "string"
     },
     {
-      "id": "d3035e8d-3354-4249-88a8-82fe6ead4fcd",
+      "id": "9787c5f4-c4c9-47bc-87ca-e918610c02af",
       "key": "nonce",
       "value": "",
       "type": "string"
     },
     {
-      "id": "f59fc1e8-0609-4f41-aa7e-4af0a2ac532b",
+      "id": "1489699c-d3a5-4495-945e-17c7cc9114ef",
       "key": "timestamp",
       "value": ""
     },
     {
-      "id": "98bb611c-0f7f-4cce-b404-8fdd4f93008c",
+      "id": "b128556f-2a7a-45c6-84b8-71cf2813fdaa",
       "key": "request_body",
       "value": "null",
       "type": "string"
     },
     {
-      "id": "26346ae0-292a-48d0-9fbc-cea806f506f5",
+      "id": "5c77dcca-e269-4fef-bb5d-644830da65c3",
       "key": "signature",
       "value": "null",
       "type": "string"
